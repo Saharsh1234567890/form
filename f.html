@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body class="bg-secondary jumbotron custom-checkboxcustom-control"><br><br>
+
+<div class="container jumbotron bg-dark text-muted form-group">
+  <p class="display-3">Username and Password System</p><br>
+  Username:<br><input type="text" class="form-control" name="1" id="abc" placeholder="Enter your Username"><br>
+  Username:<br><input type="email" class="form-control" name="4" id="abc4" placeholder="name@examle.com"><br>
+  Gender:<br><select class="form-control" name="3" id="abc3">  
+    <option>Male</option>
+    <option>Female</option>
+  </select><br><br>
+  Age:<br><input type="range" class="form-control-range" id="customRange1">
+  <small>The start of the selecter is age 10 and the end of the selecter is 100</small><br><br>
+  Password:<br><input type="password" class="form-control" name="2" id="abc2" placeholder="Enter your Password">
+  <small class="text-muted">Password must be 8 charaters</small><br><br>
+  <button class="btn btn-outline-secondary">Submit</button><br>
+</div>
+
+<div class="container jumbotron bg-dark text-muted form-group form-check">
+
+<p class="display-3">Genaral Questions</p><br><br>
+<p>Pets</p>
+<div class="custom-control custom-checkbox">
+ <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">Fish<br>
+ <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">Cat<br>
+ <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">Dog<br>
+ <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">None of the above<br>
+ <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" disabled>None<br>
+ </div>
+</div>
+
+<div class="container jumbotron bg-dark text-muted form-group">   
+    <p class="display-3">Leave a comment about this Website</p><br>
+        Leave a Comment:<br><textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea><br>
+        <button class="btn btn-outline-secondary">Submit</button>
+</div>
+
+</body>
+</html>
